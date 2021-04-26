@@ -7,6 +7,10 @@ dependencies = ["build-rust", "build-docker"]
 [tasks.build-rust]
 dependencies = ["build-rust-prod", "build-rust-dev"]
 
+[tasks.build-rust-arm]
+command = "cross"
+args = ["build", "--release", "--target", "arm-unknown-linux-gnueabihf"]
+
 [tasks.build-rust-prod]
 command = "cargo"
 args = ["build", "--release"]
