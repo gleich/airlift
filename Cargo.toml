@@ -8,4 +8,4 @@ edition = "2018"
 embedded-graphics = "0.6.0"
 linux-embedded-hal = "0.3.0"
 ssd1306 = "0.4.0"
-ctrlc = { version = "3.0", features = ["termination"] }
+anyhow = "1.0.40"
