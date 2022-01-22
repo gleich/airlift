@@ -5,7 +5,7 @@ authors = ["Matthew Gleich <email@mattglei.ch>"]
 edition = "2018"
 
 [dependencies]
-embedded-graphics = "0.6.0"
+embedded-graphics = "0.7.0"
 linux-embedded-hal = "0.3.0"
-ssd1306 = "0.4.0"
+ssd1306 = "0.7.0"
 anyhow = "1.0.40"
